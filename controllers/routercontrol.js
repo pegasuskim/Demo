@@ -2,7 +2,6 @@
 var global = require('../common');
 var async = require('async');
 var request = require('request');
-var rabbitmq = require('./handler/rabbitmq');
 
 function router_control(req, res) {
       // https://www.npmjs.com/package/request
